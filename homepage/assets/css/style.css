@@ -1,0 +1,248 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Love Ya Like A Sister', cursive;
+}
+#logo {
+height: 10vh;
+padding-top: 10px;
+}
+.navbar-nav {
+border: none; /* Remove borders */
+color: white; /* Add a text color */
+padding: 15px 5px 28px; /* Add some padding */
+cursor: pointer; /* Add a pointer cursor on mouse-over */
+font-size: 25px;
+}
+#bimg {
+background:url('../img/bgimg.jpg');
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 800px;
+}
+.tagline {
+color: white;
+font-size: 50px;
+}
+#header-btn {
+width: 450px;
+padding: 220px 50px;
+font-size: 20px;
+font-color: white;
+display: block;
+} 
+.btnbook {
+background-color: white;
+padding: 10px 10px 10px 10px;
+}
+.btnbook:hover {
+text-decoration: none;
+}
+#classpic1,
+#ourclass,
+#classpic2 {
+border-style: dotted;
+background-color: #C0DEED;
+text-align: center;
+background-color: skyblue;
+height: 400px;
+}
+.btn-download {
+width: 150px;
+font-size: 10px;
+}
+.tod1 {
+display: block;
+text-align: center;
+}
+#footer-1 img{
+width: 100%;
+}
+.smGlobalBtn { /* global button class */
+display: inline-block;
+left: 15px;
+position: relative;
+cursor: pointer;
+width: 50px;
+height: 50px;
+border:2px solid #ddd; /* add border to the buttons */
+box-shadow: 0 3px 3px #999;
+padding: 0px;
+text-decoration: none;
+text-align: center;
+color: #fff;
+font-size: 25px;
+font-weight: normal;
+line-height: 2em;
+border-radius: 27px;
+-moz-border-radius:27px;
+-webkit-border-radius:27px;
+left: 500px;
+}
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+/* facebook button class*/
+.facebookBtn{
+background: #4060A5;
+}
+.facebookBtn:before{ /* use :before to add the relevant icons */
+font-family: "FontAwesome";
+content: "\f09a"; /* add facebook icon */
+}
+.facebookBtn:hover{
+color: #4060A5;
+background: #fff;
+border-color: #4060A5; /* change the border color on mouse hover */
+}
+/* twitter button class*/
+.twitterBtn{
+background: #00ABE3;
+}
+.twitterBtn:before{
+font-family: "FontAwesome";
+content: "\f099"; /* add twitter icon */
+}
+.twitterBtn:hover{
+color: #00ABE3;
+background: #fff;
+border-color: #00ABE3;
+}
+/* google plus button class*/
+.googleplusBtn{
+background: #e64522;
+}
+.googleplusBtn:before{
+font-family: "FontAwesome";
+content: "\f0d5"; /* add googleplus icon */
+}
+.googleplusBtn:hover{
+color: #e64522;
+background: #fff;
+border-color: #e64522;
+}
+/* linkedin button class*/
+.linkedinBtn{
+background: #0094BC;
+}
+.linkedinBtn:before{
+font-family: "FontAwesome";
+content: "\f0e1"; /* add linkedin icon */
+}
+.linkedinBtn:hover{
+color: #0094BC;
+background: #fff;
+border-color: #0094BC;
+}
+/* pinterest button class*/
+.pinterestBtn{
+background: #cb2027;
+}
+.pinterestBtn:before{
+font-family: "FontAwesome";
+content: "\f0d2"; /* add pinterest icon */
+}
+.pinterestBtn:hover{
+color: #cb2027;
+background: #fff;
+border-color: #cb2027;
+}
+.footer1 {
+width: 100%;
+}
+.disclaimer {
+text-align: center;
+font-size: 12px;
+padding-top: 10px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+#header-btn {
+padding: 200px 30px;
+font-size: 15px;}
+.tagline { font-size: 35px;
+}
+#playpic img{
+width: 300vh;
+padding-top: 10px;
+}
+#toddlers,#preschool {
+padding: 20px;
+}
+#logo {
+height: 13vh;
+padding-left: 18px;
+padding-bottom: 0;
+}
+#classpic1 img{
+height: 400px;
+padding: 8px 1px 12px 3px;
+}
+#classpic2 img {
+height: 385px;
+padding-top: 10px;
+padding-left: 5px;
+}
+.footer1 {
+height: 100px;
+}
+}
+.disclaimer {
+text-align: center;
+}
+#navfonts {
+font-size: 17px;
+}
+.smGlobalBtn{
+position: relative;
+left: 28px;
+float: left;
+border-style: dotted;
+}
+.smGlobalBtn {
+height: 45px;
+width: 45px;
+}x
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.example {background: green;}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+#header-btn {
+margin-top: 100px;
+}
+#navfonts {
+font-size: 20px;
+}
+#logo {
+height: 85px;
+}
+#classpic1 img{
+height: 400px;
+padding: 8px 1px 12px 3px;
+}
+#classpic2 img {
+height: 385px;
+padding-top: 10px;
+padding-left: 5px;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+} 
+#header-btn {
+padding-top: 90px;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+} 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+#classpic1 img{
+height: 400px;
+padding: 8px 1px 12px 3px;
+}
+}
