@@ -5,9 +5,9 @@ font-family: 'Love Ya Like A Sister', cursive;
 overflow-y: visible;
 }
 #logo {
-height: 13vh;
-padding-top: 10px;
-padding-left: 15px;
+height: 10vh;
+padding-top: 9px;
+padding-left: 22px;
 }
 .navbar-nav {
 border: none; /* Remove borders */
@@ -26,14 +26,20 @@ height: 70vh;
 text-align: center;
 background-color:  #C0DEED;
 overflow: hidden;
-padding-top: 1px;
+padding-top: 20px;
 }
 .ipsum {
 padding-left: 15px;
 padding-right: 15px;
+font-size: 15px;
 }
 .col2 {
-padding-top: 100px;
+padding-top: 20px;
+margin-top: 80px;
+}
+div#facility.carousel-inner img {
+	width: 100%;
+
 }
 h1 {
 padding-top: 10px;
@@ -57,7 +63,7 @@ padding-left: 15px;
 margin-top: 10px;
 }
 .col1 {
-margin-top: 200px;
+margin-top: -100px;
 }
 .col2 {
 top: 10px;

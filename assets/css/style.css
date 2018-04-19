@@ -127,11 +127,7 @@ animation-delay:-1s;
   left: 330px;
   top: 220px;
  
-
-
 }
-
-
 
 .glow-button {
 text-decoration: none;
@@ -145,7 +141,7 @@ font-family: 'Gamja Flower', cursive;
 font-size: 20px;
 position: absolute;
 top: 470px;
-left: 600px;
+left: 550px;
 }
 
 .glow-button:hover {
@@ -154,7 +150,6 @@ box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 text-decoration: none;
 
  }
-
 
 .overlay {
   position: absolute;
@@ -175,7 +170,6 @@ text-decoration: none;
 }
 
 
-
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -183,7 +177,6 @@ text-decoration: none;
 
 @media (min-width: 1281px) {
  
-
 }
 
 /* 
@@ -193,7 +186,6 @@ text-decoration: none;
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   
-
   
 }
 
